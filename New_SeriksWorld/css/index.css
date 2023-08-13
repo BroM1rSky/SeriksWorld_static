@@ -1,0 +1,285 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color:rgb(205, 231, 255);
+}
+
+
+.navbar{
+    background-color: #4c00c7;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.logoimg{
+    width: 75px;
+    margin-left: 0.5%;
+    padding: 4px;
+    border-radius: 50px;
+
+    
+
+}
+
+.logotext{
+    /*margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #FFFFFF;
+    background: #6264c9;
+    text-shadow: 4px 3px 0 #7A7A7A;
+    font-size: 65px;
+    border-radius: 25px;
+    font-family: monaco, Consolas;*/
+
+    background: #6264c9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 65px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #2100db, 0 0 30px #2100db, 0 0 40px #2100db, 0 0 55px #2100db, 0 0 75px #2100db;
+    font-family: monaco, Consolas;
+}
+
+.opt{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+.links{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 4px;
+    background-color: #6569f5;
+    color: white;
+    font-size: 25px;
+    border-radius: 15px;
+    text-align: center;
+    border: solid 1px blue;
+    font-family: monaco, Consolas;
+}
+
+.links:hover{
+    background-color: #629df6;
+    color: white;
+    margin-top: 0.2%;
+    transition: .5s;
+}
+
+.lnk{
+    color: white;
+    border-radius: 15px;
+    
+
+}
+
+.welcome{
+    background-image:url("../img/fondos/shop1.png");
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+}
+
+.welcometext{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 65px;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #2100db, 0 0 30px #2100db, 0 0 40px #2100db, 0 0 55px #2100db, 0 0 75px #2100db;
+}
+
+.info{
+    margin-top: 8%;
+    color: white;
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inf{
+    padding: 1%;
+    margin-bottom: 3%;
+    font-size: 35px;
+    background-color: #629df6;
+    border-radius: 35px;
+    text-align: center;
+    font-family: monaco, Consolas;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ft_img{
+    width: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.ft_txt{
+    text-align: center;
+    color: white;
+}
+
+.separator{
+    text-align: center;
+    color: white;
+    background-color: #6264c9;
+    font-family: monaco, Consolas;
+    height: 3.5vh;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    border: 1px solid #6264c9;
+    
+}
+
+.torch{
+    width: 25px;
+}
+
+.howtoplay{
+    background-image:url("../img/fondos/pvp2.png");
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+
+}
+
+
+
+.hdrs{
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.how{
+    text-align: center;
+    font-size: 65px;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #2100db, 0 0 30px #2100db, 0 0 40px #2100db, 0 0 55px #2100db, 0 0 75px #2100db;
+    font-size: 40px;
+    border: solid rgb(34, 0, 255) 2px;
+    background-color: rgb(147, 6, 255);
+    font-family: monaco, Consolas;
+    width: 35%;
+    margin-left: 1.5%;
+
+}
+
+.donate{
+    text-align: center;
+    font-size: 65px;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #2100db, 0 0 30px #2100db, 0 0 40px #2100db, 0 0 55px #2100db, 0 0 75px #2100db;
+    font-size: 40px;
+    border: solid rgb(34, 0, 255) 2px;
+    background-color: rgb(147, 6, 255);
+    font-family: monaco, Consolas;
+    width: 34%;
+    float: right;
+    margin-right: 1.5%;
+    margin-left: 27%;
+}
+
+
+.align{
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.d1{
+   
+    width: 35%;
+    background-image: url(../img/fondos/stars.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-left: 1.5%;
+    border: solid 2px rgb(150, 121, 218);
+
+
+}
+
+.steps{
+    margin-top: 2%
+}
+.step{
+    font-family: monaco, Consolas;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: 2px solid rgb(38, 0, 255);
+    text-align: start;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.step:hover{
+    background-color: black;
+    color: white;
+    border: solid 2px royalblue
+}
+
+.d2{
+    width: 30%;
+    padding: 2%;
+    margin-left: 27%;
+    display:block;
+    background-image: url(../img/fondos/stars.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: solid 2px rgb(150, 121, 218);
+}
+.d2_img{
+    width: 80px;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 3%;
+}
+.d2_tb{
+    width: 160px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.dnt{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    width: 90%;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
